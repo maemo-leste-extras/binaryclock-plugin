@@ -7,7 +7,7 @@ Standards-Version: 3.7.2
 
 Package: binaryclock-plugin
 Architecture: all
-Depends: python2.5, python-gobject, python-hildon, python-hildondesktop 
+Depends: python2.7, python-gobject, python-hildon, python-hildondesktop
 Description: This package replaces the standard clock in the status area with a binary clock.
  Configuration options are available via the status area menu.
  Possible options are different styles (binary or BCD) and the possibility to hide or show seconds.
