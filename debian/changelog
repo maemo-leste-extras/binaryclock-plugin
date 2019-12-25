@@ -1,0 +1,8 @@
+binaryclock-plugin (0.3.0-1) stable; urgency=low
+
+  * Use cairo for painting.
+   * Enable transparency.
+   * Add new icons.
+   * Add license info.
+
+ -- Ruediger Gad <r.c.g@gmx.de>  Thu, 23 Dec 2010 20:55:10 +0000
