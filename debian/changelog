@@ -1,3 +1,9 @@
+binaryclock-plugin (0.4.0) stable; urgency=low
+
+  * Maemo Leste port
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Wed, 25 Dec 2019 08:42:23 +0100
+
 binaryclock-plugin (0.3.0-1) stable; urgency=low
 
   * Use cairo for painting.
