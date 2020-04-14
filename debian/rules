@@ -46,8 +46,8 @@ install: build
 	#$(MAKE) DESTDIR="$(CURDIR)/debian/binaryclock-plugin" install
 	mkdir -p "$(CURDIR)/debian/binaryclock-plugin"
 
-#	mkdir -p "$(CURDIR)/debian/binaryclock-plugin/usr/lib/hildon-desktop/"
-	cp -a "src/usr/lib/hildon-desktop/binaryclock_status_area_plugin.py" "$(CURDIR)/debian/binaryclock-plugin/usr/lib/hildon-desktop/binaryclock_status_area_plugin.py"
+	mkdir -p "$(CURDIR)/debian/binaryclock-plugin$(shell pkg-config --variable=hildondesktoplibdir libhildondesktop-1)"
+	cp -a "src/usr/lib/hildon-desktop/binaryclock_status_area_plugin.py" "$(CURDIR)/debian/binaryclock-plugin$(shell pkg-config --variable=hildondesktoplibdir libhildondesktop-1)/binaryclock_status_area_plugin.py"
 	mkdir -p "$(CURDIR)/debian/binaryclock-plugin/usr/share/applications/hildon-status-menu/"
 	cp -a "src/usr/share/applications/hildon-status-menu/binaryclock_status_area_plugin.desktop" "$(CURDIR)/debian/binaryclock-plugin/usr/share/applications/hildon-status-menu/binaryclock_status_area_plugin.desktop"
 	mkdir -p "$(CURDIR)/debian/binaryclock-plugin/usr/share/icons/hicolor/48x48/apps/"
