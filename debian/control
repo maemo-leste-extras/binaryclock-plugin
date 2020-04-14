@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 5), pkg-config, libhildondesktop1-dev
 Standards-Version: 3.7.2
 
 Package: binaryclock-plugin
-Architecture: all
+Architecture: any
 Depends: python2.7, python-gobject, python-hildon, python-hildondesktop, hildon-desktop-python-loader
 Description: This package replaces the standard clock in the status area with a binary clock.
  Configuration options are available via the status area menu.
