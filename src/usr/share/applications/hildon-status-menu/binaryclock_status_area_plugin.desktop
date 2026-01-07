@@ -1,5 +1,0 @@
-[Desktop Entry]
-Name=Status Menu Area Binary Clock Plugin
-Comment=Plugin showing a binary clock in the status menu area
-Type=python
-X-Path=binaryclock_status_area_plugin.py

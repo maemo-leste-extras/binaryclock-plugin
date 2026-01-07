@@ -2,16 +2,28 @@ Source: binaryclock-plugin
 Section: user/desktop
 Priority: extra
 Maintainer: Ruediger Gad <r.c.g@gmx.de>
-Build-Depends: debhelper (>= 5), pkg-config, libhildondesktop1-dev
-Standards-Version: 3.7.2
+Build-Depends: debhelper (>= 10),
+ cmake,
+ pkg-config,
+ libhildondesktop1-dev,
+ libhildon1-dev,
+ libgtk2.0-dev,
+ osso-af-settings,
+ libdbus-glib-1-dev,
+ libtime0,
+ libgconf2-dev,
+ libtime-dev,
+Standards-Version: 4.3.0
+Vcs-Git: https://github.com/maemo-leste-extras/binaryclock-plugin
+Vcs-Browser: https://github.com/maemo-leste-extras/binaryclock-plugin
 
 Package: binaryclock-plugin
-Architecture: all
-Depends: python2.7, python-gobject, python-hildon, python-hildondesktop, hildon-desktop-python-loader
+Architecture: any
+Depends: ${shlibs:Depends}
 Description: This package replaces the standard clock in the status area with a binary clock.
  Configuration options are available via the status area menu.
  Possible options are different styles (binary or BCD) and the possibility to hide or show seconds.
-XSBC-Bugtracker: https://github.com/maemo-leste/binaryclock-plugin/issues
+XB-Maemo-Display-Name:Binary Clock plugin
 XB-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A
  /wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9oMFxMnCyQ4YQoAAA0SSURBVGje

@@ -1,6 +1,6 @@
 #!/bin/sh
 
-sed -i '/\[binaryclock_status_area_plugin.desktop\]/,/X-Status-Area-Permanent-Item=Clock\n/ d' /etc/hildon-desktop/status-menu.plugins
+sed -i '/\[binaryclock-menu-plugin.desktop\]/,/X-Status-Area-Permanent-Item=Clock\n/ d' /etc/hildon-desktop/status-menu.plugins
 
 sed -i s/#X-Status-Area-Permanent-Item=Clock/X-Status-Area-Permanent-Item=Clock/g /etc/hildon-desktop/status-menu.plugins
 

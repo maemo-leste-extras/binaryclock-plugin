@@ -1,3 +1,9 @@
+binaryclock-plugin (0.5.0) stable; urgency=low
+
+  * C port
+
+ -- Sander <code@kroket.io>  Wed, 07 Jan 2026 15:40:23 +0300
+
 binaryclock-plugin (0.4.0) stable; urgency=low
 
   * Maemo Leste port

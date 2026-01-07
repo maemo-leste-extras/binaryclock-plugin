@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Binaryclock
+Icon=general_clock
+Comment=Replace the standard clock with a binary clock
+Category=permanent
+Type=default
+X-Path=lib-binaryclock-menu-plugin.so
